@@ -14,17 +14,21 @@ async def on_message(message):
     if message.author == client.user:
         return
  
-    if message.content.startswith('hi'):
+    if message.content == '!hi':
         await message.channel.send('Hello!')
  
-    if message.content.startswith('image'):
+    if message.content == '!image':
         await message.channel.send(file=discord.File('download.jpg'))
 
-    if message.content == ('quem contratar?'):
+    if message.content == '!contratar':
         await message.channel.send('https://www.linkedin.com/in/yuri-silva-96a115218/') 
 
-    if message.content == ('onde aprender sobre nuvem'):
+    if message.content == '!aprender_nuvem':
        await message.channel.send('https://github.com/YuriMSdS')
+
+    if message.content == '!developer':
+        with open('foto dev (eu).jpeg','rb')as f:  
+         await message.channel.send(file=discord.File('foto dev (eu).jpeg'))
 
     if message.content == '!curiosidade':
         await message.author.send('Foi uma mulher que inventou a programação!! O primeiro algoritmo de programação foi criado por Ada Lovelace, em 1833, no processo de construção de uma máquina analítica.')
