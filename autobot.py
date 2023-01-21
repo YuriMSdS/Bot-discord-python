@@ -19,4 +19,19 @@ async def on_message(message):
  
     if message.content.startswith('image'):
         await message.channel.send(file=discord.File('download.jpg'))
+
+    if message.content == ('quem contratar?'):
+        await message.channel.send('https://www.linkedin.com/in/yuri-silva-96a115218/') 
+
+    if message.content == ('onde aprender sobre nuvem'):
+       await message.channel.send('https://github.com/YuriMSdS')
+
+    if message.content == '!curiosidade':
+        await message.author.send('Foi uma mulher que inventou a programação!! O primeiro algoritmo de programação foi criado por Ada Lovelace, em 1833, no processo de construção de uma máquina analítica.')
+
+    if message.content == '!fato':
+        await message.author.send('O cérebro humano tem 75% de água na sua composição')
+
+    if message.content == '!conselho':
+        await message.author.send('estude! estude muito pq é o futuro!!!!')
 client.run('MTA2NTc5MjE4MTExOTUwNDM4NA.Gm4Wwr.Pvg_4eWF_cX51F1SJuiu9r4cFTLL30623_s0Wk')
