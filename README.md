@@ -11,6 +11,7 @@
 
 
    *comandos*
+   
      Oi bot
 
      tudo bem bot ?
