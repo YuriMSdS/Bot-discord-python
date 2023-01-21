@@ -53,4 +53,4 @@ async def on_message(message):
 
     if message.content == '!conselho':
         await message.author.send('estude! estude muito pq é o futuro!!!!')
-client.run('MTA2NTc5MjE4MTExOTUwNDM4NA.Gm4Wwr.Pvg_4eWF_cX51F1SJuiu9r4cFTLL30623_s0Wk')
+client.run('MTA2NTc5MjE4MTExOTUwNDM4NA.Gnepb-.yWizBd7w_P7n0aygKVwDodD1Y2DJ7tQnitJSKo')
