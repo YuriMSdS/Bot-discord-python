@@ -1,5 +1,5 @@
 import discord
-
+import os
 
 intents = discord.Intents.all()
 client = discord.Client(command_prefix='!', intents=intents) 
@@ -53,4 +53,8 @@ async def on_message(message):
 
     if message.content == '!conselho':
         await message.author.send('estude! estude muito pq é o futuro!!!!')
-client.run('MTA2NTc5MjE4MTExOTUwNDM4NA.Gnepb-.yWizBd7w_P7n0aygKVwDodD1Y2DJ7tQnitJSKo')
+from dotenv import load_dotenv
+load_dotenv()
+
+token = os.environ.get("TOKEN")
+client.run(token)
