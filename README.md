@@ -31,3 +31,6 @@
      !fato
 
      !conselho
+
+
+LINK PARA O BOT:  https://discord.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bot&permissions=8
