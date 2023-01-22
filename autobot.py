@@ -39,8 +39,8 @@ async def on_message(message):
        await message.channel.send('https://github.com/YuriMSdS')
 
     if message.content == '!developer':
-        with open('foto dev (eu).jpeg','rb')as f:  
-         await message.channel.send(file=discord.File('foto dev (eu).jpeg'))
+        with open('foto.jpeg','rb')as f:  
+         await message.channel.send(file=discord.File('foto.jpeg'))
 
     if message.content == 'quem é o espuminha?':
         await message.channel.send('Fuja')
