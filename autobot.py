@@ -29,9 +29,6 @@ async def on_message(message):
     if message.content == 'AutoBot se apresente':
        await message.channel.send('olá eu sou o AutoBot, fui criado pelo yuri como primeiro projeto de programação, sou amigável!!! É um prazer te conhecer!!!!')   
 
-    if message.content == '!image':
-        await message.channel.send(file=discord.File('download.jpg'))
-
     if message.content == 'bot quem devo contratar ?':
         await message.channel.send('https://www.linkedin.com/in/yuri-silva-96a115218/') 
 
